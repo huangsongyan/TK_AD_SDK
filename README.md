@@ -4,7 +4,12 @@
 
 `53f417b2fd98c5ff28024176`
 
-1. 设置Appkey
+
+1. 添加SDK依赖
+
+    把SDK文件夹的jar包放到项目的libs文件夹。
+
+2. 设置Appkey
     
     在AndroidManifest.xml文件application标签下添加
 
@@ -20,7 +25,7 @@
      ADSDK.setAppKey("你的appkey");
 ```
 
-2. AndroidManifest.xml，添加权限
+3. AndroidManifest.xml，添加权限
 
 ```xml
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,7 +36,7 @@
     <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
 ```
 
-3. 在应用程序的 Application类的onCreate方法中初始化SDK,并发送广告追踪。
+4. 在应用程序的 Application类的onCreate方法中初始化SDK,并发送广告追踪。
 
 ```java
     ADSDK.init(this);
