@@ -2,7 +2,7 @@
 
 请在应用中嵌入以下追踪代码，每个应用具有唯一Appkey，该应用的Appkey为
 
-`53f417b2fd98c5ff28024176`
+`Ta455sa1Sas100ak0llaA1120a42Da`
 
 
 1. 添加SDK依赖
